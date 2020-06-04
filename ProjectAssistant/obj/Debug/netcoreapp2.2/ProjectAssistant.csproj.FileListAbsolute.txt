@@ -1,0 +1,4 @@
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.2\ProjectAssistant.csprojAssemblyReference.cache
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.2\ProjectAssistant.AssemblyInfoInputs.cache
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.2\ProjectAssistant.AssemblyInfo.cs
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.2\ProjectAssistant.csproj.CoreCompileInputs.cache

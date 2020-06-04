@@ -1,0 +1,12 @@
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\ProjectAssistant.deps.json
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\ProjectAssistant.runtimeconfig.json
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\ProjectAssistant.runtimeconfig.dev.json
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\bin\Debug\netcoreapp2.0\ProjectAssistant.dll
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.0\ProjectAssistant.csprojAssemblyReference.cache
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.0\ProjectAssistant.AssemblyInfoInputs.cache
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.0\ProjectAssistant.AssemblyInfo.cs
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.0\ProjectAssistant.genruntimeconfig.cache
+C:\Users\sabin\source\repos\ProjectAssistant\ProjectAssistant\obj\Debug\netcoreapp2.0\ProjectAssistant.csproj.CoreCompileInputs.cache
