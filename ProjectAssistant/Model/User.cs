@@ -11,10 +11,10 @@ namespace ProjectAssistant.Model
             Task = new HashSet<Task>();
         }
 
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Role { get; set; }
-        public Guid? ProjectId { get; set; }
+        public int? ProjectId { get; set; }
 
         public virtual Project Project { get; set; }
         public virtual ICollection<Task> Task { get; set; }

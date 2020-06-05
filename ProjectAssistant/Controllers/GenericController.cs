@@ -30,7 +30,7 @@ namespace ProjectAssistant.Controllers
 
         // GET: api/[controller]/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<TEntity>> Get(Guid id)
+        public async Task<ActionResult<TEntity>> Get(int id)
         {
             var entity = await repository.Get(id);
             if (entity == null)
@@ -42,7 +42,7 @@ namespace ProjectAssistant.Controllers
 
         // PUT: api/[controller]/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(Guid id, TEntity entity)
+        public async Task<IActionResult> Put(int id, TEntity entity)
         {
             if (id != entity.Id)
             {
@@ -62,7 +62,7 @@ namespace ProjectAssistant.Controllers
 
         // DELETE: api/[controller]/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<TEntity>> Delete(Guid id)
+        public async Task<ActionResult<TEntity>> Delete(int id)
         {
             var entity = await repository.Delete(id);
             if (entity == null)
