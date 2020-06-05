@@ -10,3 +10,6 @@ To create the database just double-click on CreateDbBatch
 ## 2) Open and run ProjectAssistant solution in Visual Studio
   
 ## 3) Run Angular solution ProjectAssistantUI - from Visual Studio Code
+cd ProjectAssistent/
+npm i
+ng serve --open
