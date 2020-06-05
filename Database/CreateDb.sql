@@ -84,7 +84,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Project](
-	[Id] [uniqueidentifier] NOT NULL,
+	[Id] [int] NOT NULL,
 	[Name] [nvarchar](50) NULL,
 	[Description] [nvarchar](max) NULL,
  CONSTRAINT [PK_Project] PRIMARY KEY CLUSTERED 
@@ -99,11 +99,11 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Task](
-	[Id] [uniqueidentifier] NOT NULL,
+	[Id] [int] NOT NULL,
 	[Name] [nvarchar](50) NULL,
 	[Description] [nvarchar](max) NULL,
-	[ProjectId] [uniqueidentifier] NOT NULL,
-	[UserId] [uniqueidentifier] NULL,
+	[ProjectId] [int] NOT NULL,
+	[UserId] [int] NULL,
  CONSTRAINT [PK_Task] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -116,10 +116,10 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[User](
-	[Id] [uniqueidentifier] NOT NULL,
+	[Id] [int] NOT NULL,
 	[Name] [nvarchar](50) NULL,
 	[Role] [nvarchar](50) DEFAULT 'Developer',
-	[ProjectId] [uniqueidentifier] NULL,
+	[ProjectId] [int] NULL,
  CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -145,3 +145,15 @@ USE [master]
 GO
 ALTER DATABASE [ProjectAssistantDb] SET  READ_WRITE 
 GO
+
+insert into [ProjectAssistantDb].[dbo].[Project] Values ('1', 'AgriCult','Design agricultural machinary');
+insert into [ProjectAssistantDb].[dbo].[Project] Values ('2', 'GeoLogica','Provide geolocation for earthquackes');
+insert into [ProjectAssistantDb].[dbo].[Project] Values ('3', 'UnClear','Add blurred texture for public images of suspects');
+
+insert into [ProjectAssistantDb].[dbo].[User] Values ('1', 'Laura Appleseed','Mathematician','2');
+insert into [ProjectAssistantDb].[dbo].[User] Values ('3', 'Adrian Appleseed','Engineer',null);
+insert into [ProjectAssistantDb].[dbo].[User] Values ('7', 'Nora Vanticel','Mechanic','1');
+
+insert into [ProjectAssistantDb].[dbo].[Task] values ('12','Fuel','Choose fuel','1','7');
+insert into [ProjectAssistantDb].[dbo].[Task] values ('24','Mapping','Map devices','2','1');
+insert into [ProjectAssistantDb].[dbo].[Task] values ('28','Signalling','Choose frequency','2','3');
